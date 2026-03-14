@@ -1,6 +1,4 @@
-# The White Lodge
-
-Cloud infrastructure
+# The Docs Lodge
 
 ## Resources
 
