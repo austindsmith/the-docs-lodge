@@ -1,0 +1,58 @@
+---
+title: Planning
+description: Audit current infrastructure and establish rebuild philosophy before touching anything.
+order: 0
+---
+
+import { Steps, Aside, Badge } from '@astrojs/starlight/components';
+
+<Badge text="In progress" variant="caution" />
+
+## Goal
+
+Produce a complete inventory of my current homelab and establish the standards,
+tools, and reference material that all subsequent phases will follow. Nothing new
+gets built until this is done.
+
+## Prerequisites
+
+- Access to Proxmox, all running Docker hosts, and Kubernetess cluster
+- Both domains (thewhitelodge.org, theblacklodge.org) and their DNS records accessible
+- This docs site to centralize planning and reference material.
+
+## Decisions
+
+- The Black Lodge will represent all LAN infrastructure - especially due to FreeIPA dependencies.
+- The White Lodge will represent all cloud infrastructure - currently just a single VPS, but may expand over time.
+- [My personal website](austinsmith.org) will reference all other applications and documentation to serve as a portfolio.
+	- Other applications include [Tally](https://chromewebstore.google.com/detail/tally/hldbbppbkneiemgpjaaplhbbpldgakmc), and my anticipated pay-to-use service I plan to develop throughout 2026.
+- For The White Lodge and The Black Lodge, I will pick a central certificate authority for all applications and use a reverse proxy. This means that there should only be DNS records for the reverse proxies (or Cloudflared if going that route) and possibly an MX record. 
+
+## Tasks
+
+- [x] Inventory all Proxmox VMs and LXCs — hostname, IP, role, what depends on it
+- [x] Inventory all Docker containers — image, ports, volumes, compose file location
+- [x] Inventory all Kubernetess workloads
+- [x] Map domain DNS records to services for both domains
+- [x] Document OPNsense firewall rules and VLANs and decide whether to remove OPNsense and only use the Unifi Cloud Gateway Ulitra
+- [ ] Document WireGuard peers and which services they need to reach
+- [ ] Document Synology NAS shares and which services mount them, may need to do a rebuild on this now that FreeIPA is in the mix
+- [ ] List all secrets and where they currently live (env files, password manager, etc.) and decide on a better management process. Include SOPS/age where necessary
+- [ ] Create subnets on Cloud Gateway Ultra for different utilities
+- [ ] Centralize firewall rules, particularly on VPS
+
+## Guides
+
+- [Packer on Proxmox](https://www.youtube.com/watch?v=1nf3WOEFq1Y)
+
+## Subnets
+
+- Management (iDRAC, Proxmox, OPNsense): 192.168.0.0/24
+- Infrastructure (Pihole, FreeIPA, Authentik, Grafana Alloy): 192.168.10.0/24
+- Kubernetes: 192.168.20.0/24
+- Servers (Docker containers/LXCs that aren't promoted to main cluster, Synology NAS, development VMs, game/media servers): 192.168.30.0/24
+- Trusted Devices (Laptops, phones, desktops, Steam Deck, Playstation): 192.168.40.0/24
+- Guest Devices: 192.168.50.0/24
+- IoT: 192.168.60.0/24
+- Security Cameras/NVR: 192.168.70.0/24
+- WireGuard/VPN Clients: 192.168.80.0/24

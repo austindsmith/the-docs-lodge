@@ -1,0 +1,31 @@
+---
+title: Network
+description: All VMs and LXCs, their roles, and dependencies.
+order: 4
+---
+
+Last updated: 2026-03-14
+
+| Hostname                  | IP           | Type                                          | Role              | Depends On | Notes               |
+| ------------------------- | ------------ | --------------------------------------------- | ----------------- | ---------- | ------------------- |
+| OPNsense                  | 192.168.1.10 | LXC/firewall                                  | Proxmox host      | —          |                     |
+| Unifi Cloud Gateway Ultra | 192.168.1.20 | Firewall                                      | Identity/DNS      | pve01      |                     |
+| CGU - Default             | 192.168.1.30 | Subnet                                        | k3s control plane | freeipa    |                     |
+| CGU - Servers             |              | Subnet                                        |                   |            |                     |
+| CGU - OPNsense            |              | Subnet                                        |                   |            |                     |
+| CGU - VPN Servers         |              | Accepts inbound connections from peers        |                   |            |                     |
+| CGU - VPN Client          |              | Creates outbound connection to commercial VPN |                   |            |                     |
+| Reolink                   |              | Security cameras                              |                   |            | Create a subnet for |
+|                           |              |                                               |                   |            |                     |
+|                           |              |                                               |                   |            |                     |
+
+## Notes
+
+- Removed port forwarding rule for theblacklodge.org, Plex, and RustDesk on the Unifi Cloud Gateway Ultra.
+- Create subnets for different device types in Cloud Gateway Ultra.
+- Switch to Tailscale/Headscale rather than WireGuard for easier deployment.
+- Create tmux workspace for managing cloud infrastructure.
+
+### OPNsense
+
+- Verified VPS WireGuard was pointing to Cloud Gateway Ultra. Removed port forwarding for OPNsense and its subnet. Shutdown on 03/14/2026. Remove on 03/15/2026.

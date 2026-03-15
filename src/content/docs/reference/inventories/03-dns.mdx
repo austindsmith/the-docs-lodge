@@ -1,0 +1,19 @@
+---
+title: DNS
+description: All domains and their configuration.
+order: 3
+---
+
+Last updated: 2026-03-14
+
+| Domain            | Records                                           | Role                                         | Notes                                                                                                                                                                                          |
+| ----------------- | ------------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| austinsmith.org   | Cloudflare pages, Google site verification        | Portfolio, someday email                     | —                                                                                                                                                                                              |
+| thewhitelodge.org | A/AAAA records for VPS and Pangolin SSLs          | Cloud and external applications              | Separate from theblacklodge.org so there aren't internal DNS conflicts with FreeIPA. Added notes to all DNS records. Killed Cloudflare pages (centralized). Re-enable proxying via Cloudflare. |
+| theblacklodge.org | Proton mail signing/MX & verification, DMARC, SPF | Local infrastructure, some email             | Purged most Cloudflare records 03/14/2026. Added notes to all DNS records. Killed Cloudflare pages (centralized).                                                                              |
+| theblacklodge.dev | None                                              | Testing                                      | Purged all Cloudflare records 03/14/2026.                                                                                                                                                      |
+| thedocslodge.org  | Cloudflare pages                                  | Documentation site for The White/Black Lodge |                                                                                                                                                                                                |
+
+## Notes
+
+- 

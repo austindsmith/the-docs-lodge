@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 110" width="480" height="110">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&amp;display=swap');
+  </style>
+  <polygon points="62,28 40,88 84,88" fill="#ebdbb2"/>
+  <polygon points="44,18 20,88 68,88" fill="#ebdbb2"/>
+  <line x1="104" y1="14" x2="104" y2="96" stroke="#d79921" stroke-width="0.75"/>
+  <text x="120" y="40" font-family="'Josefin Sans','Century Gothic','Avenir',sans-serif" font-size="9" font-weight="300" fill="#d79921" letter-spacing="6">THE</text>
+  <text x="118" y="74" font-family="'Josefin Sans','Century Gothic','Avenir',sans-serif" font-size="28" font-weight="300" fill="#ebdbb2" letter-spacing="4">WHITE LODGE</text>
+</svg>
