@@ -1,1 +1,11 @@
-[]
+[
+  "astro-composer",
+  "bases-cms",
+  "obsidian42-brat",
+  "data-files-editor",
+  "disable-tabs",
+  "editing-toolbar",
+  "explorer-focus",
+  "file-name-history",
+  "folder-notes"
+]
