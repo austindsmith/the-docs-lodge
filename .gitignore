@@ -22,5 +22,7 @@ pnpm-debug.log*
 
 # Vault CMS / Obsidian
 .obsidian/workspace.json
+.obsidian/community-plugins.json
+.obsidian/workspace-mobile.json
 .obsidian/workspace-mobile.json
 .ref/
