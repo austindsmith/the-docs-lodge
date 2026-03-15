@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "42d82be774bab99f",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "docs/phases/00-planning.mdx",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "_bases/Home.base",
+                "viewName": "Guides"
               },
-              "icon": "lucide-file",
-              "title": "00-planning"
+              "pinned": true,
+              "icon": "lucide-home",
+              "title": "Home"
             }
           }
         ]
@@ -123,7 +123,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "42d82be774bab99f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "_bases/Home.base",
     "docs/index.mdx"
