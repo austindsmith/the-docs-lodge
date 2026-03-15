@@ -1,20 +1,25 @@
 {
   "main": {
-    "id": "3f75aee9dbbb866c",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "3f9e30a82861332c",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "e278636f7c0d871c",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "bases",
+              "state": {
+                "file": "_bases/Home.base",
+                "viewName": "Guides"
+              },
+              "pinned": true,
+              "icon": "lucide-home",
+              "title": "Home"
             }
           }
         ]
@@ -107,11 +112,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
+      "home-base:Open home base": false,
+      "omnisearch:Omnisearch": false,
+      "seo:Open SEO audit panel": false,
+      "zenmode:Toggle zen mode": false,
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false
     }
   },
-  "active": "e278636f7c0d871c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": []
 }
