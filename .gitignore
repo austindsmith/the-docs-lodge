@@ -26,4 +26,5 @@ src/content/.obsidian/community-plugins.json
 src/content/.obsidian/core-plugins.json
 src/content/.obsidian/workspace-mobile.json
 src/content/.obsidian/plugins/obsidian-git
+src/content/.obsidian/plugins/vault-cms
 .ref/
