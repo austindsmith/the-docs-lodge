@@ -1,0 +1,24 @@
+---
+title: Docker
+description: All containers, their roles, and dependencies.
+order: 1
+---
+
+Last updated: 2026-03-14
+
+| Hostname         | IP  | Type       | Role        | Depends On | Notes                                                          |
+| ---------------- | --- | ---------- | ----------- | ---------- | -------------------------------------------------------------- |
+| ubuntu-docker-01 |     | hypervisor | Docker host | —          |                                                                |
+| cloud            |     | hypervisor | Docker host | —          | VPS, consider how to rebuild                                   |
+| cloudflared      |     | local      |             |            | Redundant, killed everything in Cloudflare for this 03/14/2026 |
+| nginx            |     | local      |             |            | Nginx proxy manager, disabled, everything appears deprecated   |
+| plex             |     | local      |             |            | Redundant, killed on 03/14/2026                                |
+| portainer        |     |            |             |            | Redundant, killed on 03/14/2026                                |
+| portainer-agent  |     |            |             |            |                                                                |
+| gluetun          |     | local      |             |            | Migrate to the cloud                                           |
+| qbittorrent      |     | local      |             |            | Migrate to the cloud, permission issues                        |
+|                  |     |            |             |            |                                                                |
+|                  |     |            |             |            |                                                                |
+## Notes
+
+Anything that doesn't fit in the table — known issues, rebuild order, etc.
