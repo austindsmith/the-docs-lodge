@@ -21,8 +21,8 @@ pnpm-debug.log*
 .DS_Store
 
 # Vault CMS / Obsidian
-.obsidian/workspace.json
-.obsidian/community-plugins.json
-.obsidian/workspace-mobile.json
-.obsidian/workspace-mobile.json
+src/content/.obsidian/workspace.json
+src/content/.obsidian/community-plugins.json
+src/content/.obsidian/workspace-mobile.json
+src/content/.obsidian/workspace-mobile.json
 .ref/
