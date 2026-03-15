@@ -6,7 +6,7 @@
   "copyHeadingLinkFormat": "astro",
   "addTrailingSlashToLinks": true,
   "enableOpenTerminalCommand": true,
-  "terminalProjectRootPath": "../../",
+  "terminalProjectRootPath": "../..",
   "terminalApplicationName": "",
   "enableTerminalDebugLogging": false,
   "enableTerminalRibbonIcon": true,
@@ -53,5 +53,27 @@
   "publishDateField": "",
   "renameOnTitleClick": false,
   "updateModifiedDate": false,
-  "modifiedDateField": ""
+  "modifiedDateField": "",
+  "customContentTypes": [
+    {
+      "id": "content-type-1773432715446-aa4ni0ahu",
+      "name": "Guides",
+      "folder": "docs/guides",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n",
+      "enabled": true,
+      "linkBasePath": "/docs/guides/",
+      "creationMode": "file",
+      "indexFileName": "index"
+    },
+    {
+      "id": "content-type-1773432726664-0vqrjh6zp",
+      "name": "Reference",
+      "folder": "docs/reference",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n",
+      "enabled": true,
+      "linkBasePath": "/docs/reference/",
+      "creationMode": "file",
+      "indexFileName": "index"
+    }
+  ]
 }
