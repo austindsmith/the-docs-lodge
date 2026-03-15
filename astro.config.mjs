@@ -24,6 +24,10 @@ export default defineConfig({
                 autogenerate: { directory: 'decisions' },
             },
             {
+                label: 'Inventories',
+                autogenerate: { directory: 'inventories' },
+            },
+            {
                 label: 'Runbooks',
                 autogenerate: { directory: 'runbooks' },
             },
