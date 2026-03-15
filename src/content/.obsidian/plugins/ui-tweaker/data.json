@@ -137,6 +137,20 @@
       "type": "existing",
       "hidden": false,
       "mdOnly": false
+    },
+    {
+      "id": "plugin-backlink;1",
+      "name": "plugin-backlink",
+      "type": "existing",
+      "hidden": false,
+      "mdOnly": false
+    },
+    {
+      "id": "plugin-properties;1",
+      "name": "plugin-properties",
+      "type": "existing",
+      "hidden": false,
+      "mdOnly": false
     }
   ],
   "explorerCommands": [],
