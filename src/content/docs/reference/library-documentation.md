@@ -8,20 +8,22 @@ order: 0
 
 - [Astro]()
 - [Starlight]()
-- - [VaultCMS](https://docs.vaultcms.org/guides/introduction/) - Use Obsidian as a content manager
+- [VaultCMS](https://docs.vaultcms.org/guides/introduction/) - Use Obsidian as a content manager
 ## Infrastructure
 
-- [Terraform]()
-- [Packer]()
-- [Ansible]()
-
+- [Terraform](https://developer.hashicorp.com/terraform/docs)
+- [Packer](https://developer.hashicorp.com/packer/docs)
+- [Packer - Proxmox ISO](https://developer.hashicorp.com/packer/integrations/hashicorp/proxmox/latest/components/builder/iso)
+- [Ansible](https://docs.ansible.com/)
 ## Kubernetes
 
 - [CloudNative Postgres]()
 - [Longhorn]()
 - [Rancher]()
 - [Metallb]()
+## Linux
 
+- [MakeFile](https://www.gnu.org/software/make/manual/make.html
 ## Docker
 
 ## Data
@@ -34,7 +36,6 @@ order: 0
 - [dbt]()
 - [elementary]()
 - [Great Expectations]()
-
 ## Miscellaneous
 
 - [Docling]()
