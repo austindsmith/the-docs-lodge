@@ -12,7 +12,8 @@ order: 0
 ## Infrastructure
 
 - [Terraform](https://developer.hashicorp.com/terraform/docs)
-- [Terraform - Telmate/Proxmox](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs)
+- ~~[Terraform - Telmate/Proxmox](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs)~~ Use BPG. So much easier to work with.
+- [Terraform - BPG/Proxmox](https://registry.terraform.io/providers/bpg/proxmox/latest/docs)
 - [Packer](https://developer.hashicorp.com/packer/docs)
 - [Packer - Proxmox ISO](https://developer.hashicorp.com/packer/integrations/hashicorp/proxmox/latest/components/builder/iso)
 - [Ansible](https://docs.ansible.com/)
