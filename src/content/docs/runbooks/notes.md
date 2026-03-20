@@ -35,6 +35,7 @@ aliases:
 - [cockpit](https://linux-system-roles.github.io/cockpit/)
 - [ansible.posix](https://docs.ansible.com/projects/ansible/latest/collections/ansible/posix/firewalld_module.html)
 - [k3s](https://github.com/k3s-io/k3s-ansible?tab=readme-ov-file)
+- [freeipa.ipaclient](https://github.com/freeipa/ansible-freeipa/blob/master/roles/ipaclient/README.md)
 ## Configuration
 
 - [Ansible Galaxy](https://galaxy.ansible.com/ui/)
