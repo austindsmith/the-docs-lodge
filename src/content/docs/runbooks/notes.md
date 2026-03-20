@@ -8,7 +8,7 @@ image:
 file:
 actions:
   - text:
-draft: true
+draft: false
 link:
 icon:
 variant:
