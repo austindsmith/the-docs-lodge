@@ -1,5 +1,5 @@
 ---
-title: "todos"
+title: Terraform
 description: ""
 template: ""
 hero: ""
@@ -7,7 +7,7 @@ tagline:
 image:
 file:
 actions:
-- text:
+  - text:
 draft: true
 link:
 icon:

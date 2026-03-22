@@ -6,22 +6,21 @@ order: 0
 
 Last updated: 2026-03-14
 
-| Hostname              | ID  | IP                                 | Type        | Role                       | Depends On | Notes                                                                               |
-| --------------------- | --- | ---------------------------------- | ----------- | -------------------------- | ---------- | ----------------------------------------------------------------------------------- |
-| proxmox               |     | proxmox.theblacklodge.org          | hypervisor  | Proxmox host               | —          | Migrate SSL                                                                         |
-| pihole                |     | pihole.theblacklodge.org           | LXC         | Identity/DNS               | FreeIPA    | Splitting DNS                                                                       |
-| infisical             |     | infisical.theblacklodge.org        | LXC         | secret management          |            |                                                                                     |
-| cloudflared           |     | cloudflared.theblacklodge.org      | LXC         | Remote tunneling           |            | Killed on Cloudflare on 3/14/2026. Deleted 03/14/2026.                              |
-| cloudflare-ddns       |     | cloudflare-ddns.theblacklodge.org  | LXC         | Dynamic DNS                |            | Deleted 03/14/2026.                                                                 |
-| rustdesk              |     | rustdesk.theblacklodge.org         | LXC         | Remote access              |            | Deleted 03/14/2026.                                                                 |
-| netbox                |     | netbox.theblacklodge.org           | LXC         | Networking documentation   |            | Deleted 03/14/2026.                                                                 |
-| ubuntu-docker-01      |     | ubuntu-docker-01.theblacklodge.org | VM (Ubuntu) | Docker host                |            | Most apps migrated already.                                                         |
-| proxmox-backup-server |     | pbs.theblacklodge.org              | LXC         | Network backups            |            | Can do after major rebuild. Worth restructuring completely.                         |
-| FreeIPA               |     | ipa.theblacklodge.org              | VM (rocky)  | Identity/domain management |            | Affecting lots of perms.                                                            |
-| tang                  |     | tang.theblacklodge.org             | LXC         | LUKS encryption            |            | Not working. Removed 03/14/2026. Rebuild later.                                     |
-| OPNsense              |     | OPNsense.theblacklodge.org         | LXC         | Firewall                   |            | Remove and use Cloud Gateway Ultra. Some untangling with VPS Wireguard to do first. |
-| wger                  |     | wger.theblacklodge.org             | LXC         | Workout tracker            |            | Never used. Deleted 03/14/2026.                                                     |
+| Hostname              | ID  | IP                                    | Type        | Role                         | Depends On | Notes                                                                               |
+| --------------------- | --- | ------------------------------------- | ----------- | ---------------------------- | ---------- | ----------------------------------------------------------------------------------- |
+| proxmox               |     | proxmox.theblacklodge.org             | hypervisor  | Proxmox host                 | —          | Migrate SSL                                                                         |
+| pihole                |     | pihole.theblacklodge.org              | LXC         | Identity/DNS                 | FreeIPA    | Splitting DNS                                                                       |
+| infisical             |     | infisical.theblacklodge.org           | LXC         | secret management            |            |                                                                                     |
+| ~~cloudflared~~       |     | ~~cloudflared.theblacklodge.org~~     | ~~LXC~~     | ~~Remote tunneling~~         |            | ~~Killed on Cloudflare on 3/14/2026. Deleted 03/14/2026.~~                          |
+| ~~cloudflare-ddns~~   |     | ~~cloudflare-ddns.theblacklodge.org~~ | ~~LXC~~     | ~~Dynamic DNS~~              |            | ~~Deleted 03/14/2026.~~                                                             |
+| ~~rustdesk~~          |     | ~~rustdesk.theblacklodge.org~~        | ~~LXC~~     | ~~Remote access~~            |            | ~~Deleted 03/14/2026.~~                                                             |
+| ~~netbox~~            |     | ~~netbox.theblacklodge.org~~          | ~~LXC~~     | ~~Networking documentation~~ |            | ~~Deleted 03/14/2026.~~                                                             |
+| ubuntu-docker-01      |     | ubuntu-docker-01.theblacklodge.org    | VM (Ubuntu) | Docker host                  |            | Most apps migrated already.                                                         |
+| proxmox-backup-server |     | pbs.theblacklodge.org                 | LXC         | Network backups              |            | Can do after major rebuild. Worth restructuring completely.                         |
+| FreeIPA               |     | ipa.theblacklodge.org                 | VM (rocky)  | Identity/domain management   |            | Affecting lots of perms.                                                            |
+| tang                  |     | ~~tang.theblacklodge.org~~                | ~~LXC~~         | ~~LUKS encryption~~              |            | ~~Not working. Removed 03/14/2026. Rebuild later.~~                                     |
+| OPNsense              |     | ~~OPNsense.theblacklodge.org~~            | ~~LXC~~         | ~~Firewall~~                     |            | ~~Remove and use Cloud Gateway Ultra. Some untangling with VPS Wireguard to do first.~~ |
+| wger                  |     | ~~wger.theblacklodge.org~~                | ~~LXC~~         | ~~Workout tracker~~              |            | ~~Never used. Deleted 03/14/2026.~~                                                     |
 
 ## Notes
 
-Anything that doesn't fit in the table — known issues, rebuild order, etc.

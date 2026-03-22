@@ -58,3 +58,23 @@ gets built until this is done.
 - IoT: 192.168.60.0/24
 - Security Cameras/NVR: 192.168.70.0/24
 - WireGuard/VPN Clients: 192.168.80.0/24
+
+## Ansible Playbooks
+
+- [ ]  Disable Password Authentication and root login
+- [ ] Enable GSSAPIAuthentcation
+- [ ] Set AuthorizedKeysCommand
+- [ ] Restrict AllowGroups
+- [ ] LoginGraceTime & MaxAuthTries
+- [ ] Disable X11 and AllowAgent Forwards
+- [ ] disably sync cookies, rp filters, dmesg_restrict, kptr_restrict, and core dumps
+- [ ] bridge-nf-call-iptables = 1
+- [ ] ip_forward = 1
+- [ ] brnetlifer and overlay load
+- [ ] zone defaults (drop or public with allow list)
+- [ ] linux-audit
+- [ ] auditd
+- [ ] fail2ban (crowdstrike?)
+- [ ] unattended-upgrades for security patches
+- [ ] .etc.issues login banners
+- [ ] disable usb, enable chronyd
