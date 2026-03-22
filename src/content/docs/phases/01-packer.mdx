@@ -1,7 +1,9 @@
 ---
-title: Base Images
+title: Packer
 description: Packer templates for base VM images on Proxmox.
 order: 2
+aliases:
+  - 01-base-images
 ---
 
 import { Steps, Aside, Badge } from '@astrojs/starlight/components';
@@ -48,3 +50,17 @@ a full ADR, link to it instead.
 ## Next phase
 
 Link to whatever comes after this, or note what it unblocks.
+
+## Reference
+
+- [Packer on Proxmox Tutorial](https://devlog.brittg.com/posts/homelab-part-1-proxmox/)
+- [HashiCorp Boot Commands](https://developer.hashicorp.com/packer/docs/builders/virtualbox/iso#boot-command)
+## Snippets
+
+### Generating a `$6$` hash
+
+```bash
+
+openssl passwd -6 'PASSWORD_HERE'
+
+```

@@ -1,5 +1,5 @@
 ---
-title: notes
+title: Ansible
 description: ""
 template: ""
 hero: ""
@@ -8,15 +8,18 @@ image:
 file:
 actions:
   - text:
-draft: false
+draft: true
 link:
 icon:
 variant:
 order: ""
 aliases:
-  - todos
+  - ansible
+  - 03- ansible
 ---
-# Notes
+## References
+
+- [Ansible for Beginners Playlist](https://www.youtube.com/playlist?list=PL7iMyoQPMtAPZl58ovoOlxFxNPioSx838)
 ## Todo
 
 - [ ] Cockpit
