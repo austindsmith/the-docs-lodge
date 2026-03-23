@@ -22,7 +22,7 @@ aliases:
 - [Ansible for Beginners Playlist](https://www.youtube.com/playlist?list=PL7iMyoQPMtAPZl58ovoOlxFxNPioSx838)
 ## Todo
 
-- [ ] Cockpit
+- [x] Cockpit
 - [ ] Timezone, locale, hostname
 - [ ] SSH hardening
 - [ ] Unattended upgrades
@@ -30,7 +30,9 @@ aliases:
 - [ ] ArgoCD bootstrap
 - [ ] ufw
 - [ ] SOPS
-- [ ] 
+
+>[!tip] Important
+>Need a different AP to broadcast VLAN over Wi-Fi.
 
 ## Collections and roles
 
@@ -45,3 +47,6 @@ aliases:
 - [requirements.yml](https://docs.ansible.com/projects/ansible/latest/galaxy/user_guide.html#id8)
 - [Build an inventory](https://docs.ansible.com/projects/ansible/latest/inventory_guide/intro_inventory.html)
 - [Ansible configuration](https://docs.ansible.com/projects/ansible/latest/reference_appendices/config.html)
+
+> [!NOTE]
+> - [tang](https://docs.oracle.com/en/operating-systems/oracle-linux/nbde/nbde-OptionallyConfiguretheTangServertoRunonaSpecifiedPort.html)
