@@ -50,3 +50,10 @@ aliases:
 
 > [!NOTE]
 > - [tang](https://docs.oracle.com/en/operating-systems/oracle-linux/nbde/nbde-OptionallyConfiguretheTangServertoRunonaSpecifiedPort.html)
+
+
+### Running a playbook on an inventory folder
+
+```bash
+ansible-playbook k3s.orchestration.site -i inventory/
+```
