@@ -30,4 +30,4 @@ order: ""
 ### Docs
 
 - [k3s-ansible](https://github.com/k3s-io/k3s-ansible/tree/main)
-- 
+- [argocd sops](https://vieitesss.github.io/posts/ArgoCD-and-SOPS/)
