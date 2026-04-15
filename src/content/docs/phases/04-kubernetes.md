@@ -30,4 +30,6 @@ order: ""
 ### Docs
 
 - [k3s-ansible](https://github.com/k3s-io/k3s-ansible/tree/main)
-- [argocd sops](https://vieitesss.github.io/posts/ArgoCD-and-SOPS/)
+- [argocd sops](https://vieitesss.github.io/posts/ArgoCD-and-SOPS/) - but migrate to Hashicorp vault eventually
+- [external-secrets-operator](https://oneuptime.com/blog/post/2026-02-26-argocd-external-secrets-operator/view)
+- [external-secrets-operator Infisical](https://external-secrets.io/latest/provider/infisical/)

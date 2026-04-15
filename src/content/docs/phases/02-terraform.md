@@ -14,3 +14,8 @@ icon:
 variant:
 order: ""
 ---
+## Todo
+
+- [ ] Migrate Docker containers to Kubernetes
+- [ ] Make all Proxmox LXCs GitOps (Terraform/Ansible)
+- [ ] Rebuild NAS permissions
