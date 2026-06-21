@@ -148,6 +148,14 @@ cp -a /opt/appdata/radarr/radarr.db     ~/migrate/sqlite/radarr/
 cp -a /opt/appdata/prowlarr/prowlarr.db ~/migrate/sqlite/prowlarr/
 cp -a /opt/appdata/tautulli/tautulli.db ~/migrate/sqlite/tautulli/
 ```
+
+**Also look into vacuum**
+
+```bash
+sqlite3 /srv/sonarr/config/sonarr.db "VACUUM INTO '$HOME/wl-dump/sonarr-main.db'"
+sqlite3 /srv/sonarr/config/logs.db   "VACUUM INTO '$HOME/wl-dump/sonarr-log.db'"
+```
+
 - [ ] Collect named volumes for each app
 
 ```bash

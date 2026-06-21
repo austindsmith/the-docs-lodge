@@ -1,24 +1,47 @@
 ---
-title: Tool Considerations
-description: FOSS tools for Arch/Docker/Kubernetes/Proxmox that I am documenting so I don't forget because they may solve a problem.
-order: 0
+title: Articles, Guides, Books, Libraries and Tools
+description: ""
+template: ""
+hero: ""
+tagline:
+image:
+file:
+actions:
+  - text:
+draft: true
+link:
+icon:
+variant:
+order: ""
+aliases:
+  - articles-guides-libraries-and-tools
 ---
-## Organization
+## Tools
+### Organization
 
 - [ ] [Plane](https://github.com/makeplane/plane) - Project management
 - [ ] [Backstage](https://backstage.io/) - Framework for developing custom developer portals
 - [ ] [Gitea](https://about.gitea.com/) - Local git server
 
-## Security
+### Security
 
 - [ ] [Security Onion](https://github.com/Security-Onion-Solutions/securityonion) - Security platform
 - [ ] [Grafana Alloy](https://grafana.com/docs/alloy/latest/) - Endpoint management
 
-## Content
+### Content
 
 - [x] [VaultCMS](https://docs.vaultcms.org/guides/introduction/) - Use Obsidian as a content manager
 
-## APIs
+
+## Articles/Guides
+Articles here.
+
+
+## Books
+
+
+## Datasets
+### APIs
 
 - [ ] ABQ City Data
 
