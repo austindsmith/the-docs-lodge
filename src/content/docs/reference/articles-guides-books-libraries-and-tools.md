@@ -24,6 +24,7 @@ aliases:
 - [ ] [Plane](https://github.com/makeplane/plane) - Project management
 - [ ] [Backstage](https://backstage.io/) - Framework for developing custom developer portals
 - [ ] [Gitea](https://about.gitea.com/) - Local git server
+- [ ] [Boilerpate](https://github.com/ChristianLempa/boilerplates) - Generate boilerplate projects
 
 #### Security
 
